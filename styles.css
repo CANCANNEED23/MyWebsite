@@ -1,0 +1,142 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, rgb(129, 241, 185), rgb(183, 228, 243)); /* Gradient background for the body */
+    color: #02442c; /* Black text color */
+}
+
+header {
+    background: linear-gradient(135deg, rgb(51, 153, 102), lightblue); /* Gradient background for the header */
+    color: #02442c; /* Black text color */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    margin-left: 20px; /* Align header text to the left */
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    right: 20px; /* Position navigation to the top right */
+}
+
+nav a {
+    color: #02442c; /* Black text color */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    text-align: left; /* Align paragraphs to the left */
+    margin-left: 200px; /* Add left margin */
+    margin-right: 200px; /* Add right margin */
+}
+
+.quote{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.small-icon {
+    width: 40px; /* Desired width */
+    height: 40px; /* Desired height */
+}
+
+footer {
+    background: linear-gradient(135deg, rgb(51, 153, 102), lightblue); /* Gradient background for the footer */
+    color: #02442c; /* Black text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    header, footer {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    header, footer {
+        padding: 10px 5px;
+    }
+
+    nav {
+        right: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    header, footer {
+        padding: 5px 5px;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 5px 5px;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        margin-top: 5px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    nav a {
+        margin: 2px;
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Adjust header font size for very small screens */
+    }
+}
+
