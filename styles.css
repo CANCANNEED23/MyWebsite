@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(135deg, rgb(129, 241, 185), rgb(183, 228, 243)); /* Gradient background for the body */
-    color: #02442c; /* Black text color */
+    background: linear-gradient(135deg, rgb(129, 241, 185), rgb(183, 228, 243)); 
+    color: #02442c; 
 }
 
 header {
-    background: linear-gradient(135deg, rgb(51, 153, 102), lightblue); /* Gradient background for the header */
-    color: #02442c; /* Black text color */
+    background: linear-gradient(135deg, rgb(51, 153, 102), lightblue); 
+    color: #02442c; 
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ header {
 }
 
 header h1 {
-    margin-left: 20px; /* Align header text to the left */
+    margin-left: 20px; 
 }
 
 h2 {
@@ -27,11 +27,11 @@ h2 {
 
 nav {
     position: absolute;
-    right: 20px; /* Position navigation to the top right */
+    right: 20px; 
 }
 
 nav a {
-    color: #02442c; /* Black text color */
+    color: #02442c; 
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -47,9 +47,9 @@ main {
 }
 
 section {
-    text-align: left; /* Align paragraphs to the left */
-    margin-left: 200px; /* Add left margin */
-    margin-right: 200px; /* Add right margin */
+    text-align: left; 
+    margin-left: 200px; 
+    margin-right: 200px; 
 }
 
 .quote{
@@ -62,13 +62,13 @@ img {
 }
 
 img.small-icon {
-    width: 40px; /* Desired width */
-    height: 40px; /* Desired height */
+    width: 40px; 
+    height: 40px; 
 }
 
 footer {
-    background: linear-gradient(135deg, rgb(51, 153, 102), lightblue); /* Gradient background for the footer */
-    color: #02442c; /* Black text color */
+    background: linear-gradient(135deg, rgb(51, 153, 102), lightblue); 
+    color: #02442c; 
     text-align: center;
     padding: 10px 0;
     position: fixed;
